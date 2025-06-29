@@ -1,0 +1,736 @@
+arenas:
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenas
+    x: 4863.524812905718
+    y: 9.0
+    z: 5066.420874592046
+    pitch: -0.5489304
+    yaw: -0.48499882
+  loc1:
+    ==: Location
+    world: arenas
+    x: 4863.558574491613
+    y: 9.0
+    z: 5162.308225667882
+    pitch: -0.9297371
+    yaw: -180.28726
+  display-name: "\xc2\xa7eOldWestern"
+  build: true
+  center:
+    ==: Location
+    world: arenas
+    x: 4863.539148913103
+    y: 9.0
+    z: 5123.29127282986
+    pitch: -0.9297371
+    yaw: -180.28726
+  name: oldwestern
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMPTY_MAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xc2\xa7eOldWestern"
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenas
+    x: 2150.5245875884516
+    y: 4.0
+    z: 2125.3791663814004
+    pitch: -1.3390379
+    yaw: 90.47171
+  loc1:
+    ==: Location
+    world: arenas
+    x: 2040.468124177241
+    y: 4.0
+    z: 2125.5628311975565
+    pitch: 0.011640209
+    yaw: 269.12283
+  display-name: "\xc2\xa7eCathedral"
+  build: true
+  center:
+    ==: Location
+    world: arenas
+    x: 2096.566505246498
+    y: 4.0
+    z: 2125.4809646221806
+    pitch: 0.011640209
+    yaw: 269.12283
+  name: cathedral
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMPTY_MAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xc2\xa7eCathedral"
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenas
+    x: 7477.373794991216
+    y: 47.0
+    z: 7572.574112024174
+    pitch: -0.43173194
+    yaw: 89.89616
+  loc1:
+    ==: Location
+    world: arenas
+    x: 7359.740166098673
+    y: 47.0
+    z: 7571.978331473071
+    pitch: 0.83785534
+    yaw: -89.5588
+  display-name: "\xc2\xa7eSonic"
+  build: true
+  center:
+    ==: Location
+    world: arenas
+    x: 7416.8341319557285
+    y: 47.0
+    z: 7572.021491442688
+    pitch: 0.83785534
+    yaw: -89.5588
+  name: sonic
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMPTY_MAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xc2\xa7eSonic"
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenas
+    x: 6010.60731297753
+    y: 38.0
+    z: 6050.509456077634
+    pitch: -0.30444214
+    yaw: 270.1101
+  loc1:
+    ==: Location
+    world: arenas
+    x: 6120.993789757694
+    y: 38.0
+    z: 6050.489109648701
+    pitch: -1.1935769
+    yaw: 89.074646
+  display-name: "\xc2\xa7ePerry"
+  build: true
+  center:
+    ==: Location
+    world: arenas
+    x: 6067.460209716703
+    y: 38.0
+    z: 6050.574692961487
+    pitch: -1.1935769
+    yaw: 89.074646
+  name: perry
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMPTY_MAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xc2\xa7ePerry"
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenas
+    x: 2825.4823327588847
+    y: 23.0
+    z: 3101.4062484203428
+    pitch: -1.0786284
+    yaw: 271.47205
+  loc1:
+    ==: Location
+    world: arenas
+    x: 2945.4004461605878
+    y: 23.0
+    z: 3101.4807831453622
+    pitch: -1.0902963
+    yaw: 89.87668
+  display-name: "\xc2\xa7eDaisy"
+  build: true
+  center:
+    ==: Location
+    world: arenas
+    x: 2885.3184979577413
+    y: 23.0
+    z: 3101.495728577502
+    pitch: -1.0902963
+    yaw: 89.87668
+  name: daisy
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMPTY_MAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xc2\xa7eDaisy"
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenas
+    x: 8420.530093110518
+    y: 59.0
+    z: 8421.694203214469
+    pitch: -1.0507015
+    yaw: 180.10556
+  loc1:
+    ==: Location
+    world: arenas
+    x: 8420.471923643549
+    y: 59.0
+    z: 8409.606214648064
+    pitch: -1.3739127
+    yaw: 0.08471839
+  display-name: "\xc2\xa7eTemple"
+  center:
+    ==: Location
+    world: arenas
+    x: 8420.470119567843
+    y: 59.0
+    z: 8414.744001749177
+    pitch: -1.3739127
+    yaw: 0.08471839
+  name: temple
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMPTY_MAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xc2\xa7eTemple"
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  kits:
+  - sumo
+  - sumofly
+  - pearlsumo
+  - bowsumo
+  - sumo-ranked
+  - sumo-ranked
+  - sumo-ranked
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenas
+    x: 3491.5028144741814
+    y: 55.0
+    z: 3447.4642602018816
+    pitch: -1.1942807
+    yaw: 90.10666
+  loc1:
+    ==: Location
+    world: arenas
+    x: 3355.2916344787327
+    y: 55.0
+    z: 3447.476370270037
+    pitch: -1.4481888
+    yaw: 269.95914
+  display-name: "\xc2\xa7eGameofThrones"
+  build: true
+  center:
+    ==: Location
+    world: arenas
+    x: 3405.7441032338515
+    y: 55.0
+    z: 3447.4727863390276
+    pitch: -1.4481888
+    yaw: 269.95914
+  name: gameofthrones
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMPTY_MAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xc2\xa7eGameofThrones"
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenas
+    x: -103.2593918826505
+    y: 64.0
+    z: 58.45557480705624
+    pitch: -1.6162329
+    yaw: 269.48273
+  loc1:
+    ==: Location
+    world: arenas
+    x: 18.377155862562574
+    y: 64.0
+    z: 58.49663887334465
+    pitch: -2.0433745
+    yaw: 90.16617
+  display-name: "\xc2\xa7eAvengers"
+  build: true
+  center:
+    ==: Location
+    world: arenas
+    x: -34.21985534734568
+    y: 64.0
+    z: 58.47793384462422
+    pitch: -2.0433745
+    yaw: 90.16617
+  name: avengers
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMPTY_MAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xc2\xa7eAvengers"
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenas
+    x: 2579.7288576660007
+    y: 35.0
+    z: 2606.5275437922896
+    pitch: -0.8703855
+    yaw: 270.38892
+  loc1:
+    ==: Location
+    world: arenas
+    x: 2687.3070030474046
+    y: 35.0
+    z: 2606.6073967216585
+    pitch: -1.0088073
+    yaw: 89.47955
+  display-name: "\xc2\xa7eConstruction"
+  build: true
+  center:
+    ==: Location
+    world: arenas
+    x: 2645.603207882721
+    y: 35.0
+    z: 2606.644902628272
+    pitch: -1.0088073
+    yaw: 89.47955
+  name: construction
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMPTY_MAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xc2\xa7eConstruction"
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenas
+    x: 5648.3182405010675
+    y: 21.0
+    z: 5598.5670819878405
+    pitch: -1.6203771
+    yaw: 90.02106
+  loc1:
+    ==: Location
+    world: arenas
+    x: 5535.382938358428
+    y: 21.0
+    z: 5598.583904152508
+    pitch: -2.624713
+    yaw: 269.91895
+  display-name: "\xc2\xa7ePac-Man"
+  build: true
+  center:
+    ==: Location
+    world: arenas
+    x: 5585.678693339061
+    y: 21.0
+    z: 5598.5756960158515
+    pitch: -2.624713
+    yaw: 269.91895
+  name: pacman
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMPTY_MAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xc2\xa7ePac-Man"
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenas
+    x: 1122.209154566856
+    y: 28.0
+    z: 986.5632844660818
+    pitch: -0.8079613
+    yaw: 90.0661
+  loc1:
+    ==: Location
+    world: arenas
+    x: 1002.4533469649707
+    y: 28.0
+    z: 986.4854762015104
+    pitch: 0.62330055
+    yaw: 269.85968
+  display-name: "\xc2\xa7eBarnyard"
+  build: true
+  center:
+    ==: Location
+    world: arenas
+    x: 1050.8577833319387
+    y: 28.0
+    z: 986.4730125202561
+    pitch: 0.62330055
+    yaw: 269.85968
+  name: barnyard
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMPTY_MAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xc2\xa7eBarnyard"
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenas
+    x: 8065.472831544523
+    y: 33.0
+    z: 8073.6504126361215
+    pitch: 0.9074031
+    yaw: 179.9909
+  loc1:
+    ==: Location
+    world: arenas
+    x: 8065.471025089297
+    y: 33.0
+    z: 8061.4401341687135
+    pitch: -0.92797
+    yaw: 359.85287
+  display-name: "\xc2\xa7ePokemon"
+  center:
+    ==: Location
+    world: arenas
+    x: 8065.475616936332
+    y: 33.0
+    z: 8067.764975295219
+    pitch: -0.92797
+    yaw: 359.85287
+  name: pokemon
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMPTY_MAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xc2\xa7ePokemon"
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  kits:
+  - sumo
+  - sumofly
+  - pearlsumo
+  - bowsumo
+  - sumo-ranked
+  - sumo-ranked
+  - sumo-ranked
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenas
+    x: 6537.486099120287
+    y: 55.0
+    z: 6567.5477348950735
+    pitch: -1.943718
+    yaw: 269.98987
+  loc1:
+    ==: Location
+    world: arenas
+    x: 6633.5566832404775
+    y: 55.0
+    z: 6567.555797111073
+    pitch: -0.8470417
+    yaw: 89.89984
+  display-name: "\xc2\xa7eQuidditch"
+  build: true
+  center:
+    ==: Location
+    world: arenas
+    x: 6585.453932138438
+    y: 55.0
+    z: 6567.566376169435
+    pitch: -0.8470417
+    yaw: 89.89984
+  name: quidditch
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMPTY_MAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xc2\xa7eQuidditch"
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenas
+    x: 4540.515743604338
+    y: 63.0
+    z: 4589.506098208725
+    pitch: -0.90635115
+    yaw: 269.922
+  loc1:
+    ==: Location
+    world: arenas
+    x: 4660.770028527167
+    y: 63.0
+    z: 4589.500630094695
+    pitch: -0.5712635
+    yaw: 89.41138
+  display-name: "\xc2\xa7eMushroomForest"
+  build: true
+  center:
+    ==: Location
+    world: arenas
+    x: 4612.748110956872
+    y: 63.0
+    z: 4589.550818487765
+    pitch: -0.5712635
+    yaw: 89.41138
+  name: mushroomforest
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMPTY_MAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xc2\xa7eMushroomForest"
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenas
+    x: 3855.2541938595327
+    y: 15.0
+    z: 3947.4784749657056
+    pitch: -1.4828112
+    yaw: 270.0105
+  loc1:
+    ==: Location
+    world: arenas
+    x: 3991.5574692762557
+    y: 15.0
+    z: 3947.527715358675
+    pitch: -1.3904788
+    yaw: 90.09388
+  display-name: "\xc2\xa7eGroot"
+  build: true
+  center:
+    ==: Location
+    world: arenas
+    x: 3941.923189292963
+    y: 15.0
+    z: 3947.5196618589935
+    pitch: -1.3904788
+    yaw: 90.09388
+  name: groot
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMPTY_MAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xc2\xa7eGroot"
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenas
+    x: 6910.436806689807
+    y: 11.0
+    z: 7141.435528308642
+    pitch: -0.8935511
+    yaw: 90.71521
+  loc1:
+    ==: Location
+    world: arenas
+    x: 6790.508631045325
+    y: 11.0
+    z: 7141.464558362547
+    pitch: -0.87043166
+    yaw: 269.8971
+  display-name: "\xc2\xa7eSkullIsland"
+  build: true
+  center:
+    ==: Location
+    world: arenas
+    x: 6848.56517796136
+    y: 11.0
+    z: 7141.454268501105
+    pitch: -0.87043166
+    yaw: 269.8971
+  name: skullisland
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMPTY_MAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xc2\xa7eSkullIsland"
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenas
+    x: 8940.543822529204
+    y: 21.0
+    z: 8938.726392750958
+    pitch: -2.828234
+    yaw: 179.91823
+  loc1:
+    ==: Location
+    world: arenas
+    x: 8940.50761877396
+    y: 21.0
+    z: 8928.586186362023
+    pitch: -1.4545583
+    yaw: 0.2565186
+  display-name: "\xc2\xa7eImperial"
+  center:
+    ==: Location
+    world: arenas
+    x: 8940.500876491189
+    y: 21.0
+    z: 8931.944619461663
+    pitch: -1.4545583
+    yaw: 0.2565186
+  name: imperial
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMPTY_MAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "\xc2\xa7eImperial"
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  kits:
+  - sumo
+  - sumofly
+  - pearlsumo
+  - bowsumo
+  - sumo-ranked
+  - sumo-ranked
+  - sumo-ranked
