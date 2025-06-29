@@ -1,0 +1,97 @@
+menu_title: '&9&lSettings'
+open_command:
+- settings_menu
+register_command: true
+update-interval: 1
+size: 9
+items:
+      Toggle Duels:
+        material: DIAMOND_SWORD
+        hide_effects: true
+        slot: 0
+        update: true
+        display_name: '&9Toggle Duel Requests'
+        lore:
+        - '&7Allow players to duel you.'
+        - ''
+        - '&9Click to select!'
+        left_click_commands:
+        - '[player] toggleduelrequests'
+        right_click_commands:
+        - '[player] toggleduelrequests'     
+        - '[close]'
+      Toggle Scoreboard:
+        material: PAINTING
+        hide_effects: true
+        slot: 1
+        update: true
+        display_name: '&9Toggle Scoreboard &c(Broken)'
+        lore:
+        - '&7Toggle the sidebar.'
+        - ''
+        - '&9Click to select!'
+        left_click_commands:
+        - '[player] togglescoreboard'
+        right_click_commands:
+        - '[player] togglescoreboard'     
+        - '[close]'
+      Toggle Global Chat:
+        material: SUGAR_CANE
+        hide_effects: true
+        slot: 2
+        update: true
+        display_name: '&9Toggle Global Chat'
+        lore:
+        - '&7See the public chat.'
+        - ''
+        - '&9Click to select!'
+        left_click_commands:
+        - '[player] toggleglobalchat'
+        right_click_commands:
+        - '[player] toggleglobalchat'     
+        - '[close]'
+      Toggle Messages:
+        material: SIGN
+        hide_effects: true
+        slot: 3
+        update: true
+        display_name: '&9Toggle Private Messages'
+        lore:
+        - '&7Allows players to message you.'
+        - ''
+        - '&9Click to select!'
+        left_click_commands:
+        - '[player] togglemessages'
+        right_click_commands:
+        - '[player] togglemessages'     
+        - '[close]'
+      Toggle Message Sounds:
+        material: SLIME_BALL
+        hide_effects: true
+        slot: 4
+        update: true
+        display_name: '&9Toggle Message Sounds'
+        lore:
+        - '&7Hear the ding sound when someone messages you.'
+        - ''
+        - '&9Click to select!'
+        left_click_commands:
+        - '[player] togglesounds'
+        right_click_commands:
+        - '[player] togglesounds'     
+        - '[close]'
+      Toggle Announcements:
+        material: BOOK
+        hide_effects: true
+        slot: 5
+        update: true
+        display_name: '&9Toggle Announcements'
+        lore:
+        - '&7Recieve server announcements.'
+        - ''
+        - '&9Click to select!'
+        left_click_commands:
+        - '[player] toggletips'
+        right_click_commands:
+        - '[player] toggletips'     
+        - '[close]'

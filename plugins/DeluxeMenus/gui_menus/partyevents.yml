@@ -1,0 +1,47 @@
+menu_title: '&9&lParty Events'
+open_command:
+- partyevents
+register_command: true
+update-interval: 1
+size: 27
+items:
+      Party Split:
+        material: DIAMOND_SWORD
+        hide_effects: true        
+        slot: 12
+        update: true
+        display_name: '&9&lParty Split'
+        lore:
+        - '&7Evenly split your party'
+        - '&7and fight the other team.'
+        - ''
+        - '&9Click to select!'
+        left_click_commands:
+        - '[player] party split'
+        right_click_commands:
+        - '[player] party split'
+        - '[close]'
+      FFA:
+        material: GOLD_AXE
+        hide_effects: true
+        slot: 14
+        update: true
+        display_name: '&9&lFFA'
+        lore:
+        - '&7Everyone in your party fights'
+        - '&7until the last man standing.'
+        - ''
+        - '&9Click to select!'
+        left_click_commands:
+        - '[player] party ffa'
+        right_click_commands:
+        - '[player] party ffa'     
+        - '[close]'
+      glass:
+        display_name: '&r'
+        material: STAINED_GLASS_PANE
+        data: 7
+        slots:     
+        - 0-11
+        - 13
+        - 15-26

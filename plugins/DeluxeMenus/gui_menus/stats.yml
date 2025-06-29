@@ -1,0 +1,175 @@
+stats:
+menu_title: '&9Stats'
+open_command:
+- stat
+- stats
+- elo
+- strikepractice:elo
+- strikepractice:stats
+update-interval: 1
+size: 36
+items:
+      globalelo:
+        material: beacon
+        slot: 2
+        update: true
+        left_click_commands:
+        - '[refresh]'
+        right_click_commands:
+        - '[refresh]'
+        display_name: '&9&lGlobal Elo &7┃ &fTop 10'
+        lore:
+        - ''
+        - '&7&m---------------------------'
+        - '&9 #1 &7┃ &3%strikepractice_top_global_elo1% &7» &f%strikepractice_top_global_elo1_value%'
+        - '&9 #2 &7┃ &3%strikepractice_top_global_elo2% &7» &f%strikepractice_top_global_elo2_value%'
+        - '&9 #3 &7┃ &3%strikepractice_top_global_elo3% &7» &f%strikepractice_top_global_elo3_value%'
+        - '&9 #4 &7┃ &3%strikepractice_top_global_elo4% &7» &f%strikepractice_top_global_elo4_value%'
+        - '&9 #5 &7┃ &3%strikepractice_top_global_elo5% &7» &f%strikepractice_top_global_elo5_value%'
+        - '&9 #6 &7┃ &3%strikepractice_top_global_elo6% &7» &f%strikepractice_top_global_elo6_value%'
+        - '&9 #7 &7┃ &3%strikepractice_top_global_elo7% &7» &f%strikepractice_top_global_elo7_value%'
+        - '&9 #8 &7┃ &3%strikepractice_top_global_elo8% &7» &f%strikepractice_top_global_elo8_value%'
+        - '&9 #9 &7┃ &3%strikepractice_top_global_elo9% &7» &f%strikepractice_top_global_elo9_value%'
+        - '&9 #10 &7┃ &3%strikepractice_top_global_elo10% &7» &f%strikepractice_top_global_elo10_value%'
+        - '&7&m---------------------------'
+        - ''
+      rankedgames:
+        material: iron_sword
+        slot: 21
+        hide_attributes: true
+        update: true
+        left_click_commands:
+        - '[openguimenu] leaderboard'
+        right_click_commands:
+        - '[openguimenu] leaderboard'
+        display_name: '&9&lRanked Games'
+        lore:
+        - ''
+        - '&7&m---------------------------'
+        - '&fRanked&3 leaderboards will be'
+        - '&3listed in this section.'
+        - ''
+        - '&7&oClick here to check leaderboards.'
+        - '&7&m---------------------------'
+        - ''
+      personal:
+        material: head-%player_name%
+        slot: 6
+        update: true
+        left_click_commands:
+        - '[refresh]'
+        right_click_commands:
+        - '[refresh]'
+        display_name: '&9&lPersonal'
+        lore:
+        - ''
+        - '&7&m---------------------------'
+        - '&9 ● &3Player: &f%player_name%'
+        - '&9 ● &3Rank: &f%vault_rank%'
+        - '&9 ● &3Tag: &f%deluxetags_identifier%'
+        - '&9 ● &3Ping: &f%player_ping% ms'
+        - '&9 ● &3Time played: &f%statistic_time_played%'
+        - '&7&m---------------------------'
+        - ''
+      rankedstats:
+        material: paper
+        slot: 19
+        update: true
+        left_click_commands:
+        - '[refresh]'
+        right_click_commands:
+        - '[refresh]'
+        display_name: '&9&lRanked Statistics'
+        lore:
+        - ''
+        - '&7&m---------------------------'
+        - '&9 ● &3BuildUHC: &f%strikepractice_elo_builduhcelo%'
+        - '&9 ● &3FinalUHCLite: &f%strikepractice_elo_finaluhcliteelo%'
+        - '&9 ● &3BorderUHC: &f%strikepractice_elo_borderuhcelo%'
+        - '&9 ● &3SnowballUHC: &f%strikepractice_elo_snowballuhcelo%'
+        - '&9 ● &3Golden: &f%strikepractice_elo_goldenelo%'
+        - '&9 ● &3NoDebuff: &f%strikepractice_elo_nodebuffelo%'
+        - '&9 ● &3Debuff: &f%strikepractice_elo_debuffelo%'
+        - '&9 ● &3Gapple: &f%strikepractice_elo_gappleelo%'
+        - '&9 ● &3Combo: &f%strikepractice_elo_comboelo%'
+        - '&9 ● &3Axe: &f%strikepractice_elo_axeelo%'
+        - '&9 ● &3Sumo: &f%strikepractice_elo_sumoelo%'
+        - '&9 ● &3NoEnchant: &f%strikepractice_elo_noenchantelo%'
+        - '&9 ● &3Archer: &f%strikepractice_elo_archerelo%'
+        - '&9 ● &3SG: &f%strikepractice_elo_sgelo%'
+        - '&9 ● &3HCF: &f%strikepractice_elo_hcfelo%'
+        - '&9 ● &3Soup: &f%strikepractice_elo_soupelo%'
+        - '&9 ● &3SkyPvP: &f%strikepractice_elo_skypvpelo%'
+        - '&7&m---------------------------'
+        - ''
+      elo:
+        material: flint_and_steel
+        slot: 23
+        update: true
+        left_click_commands:
+        - '[refresh]'
+        right_click_commands:
+        - '[refresh]'
+        display_name: '&9&lElo'
+        lore:
+        - ''
+        - '&7&m---------------------------'
+        - '&9 ● &3Global Elo: &f%strikepractice_global_elo%'
+        - '&9 ● &3Elo Rank: &f%strikepractice_elo_rank%'
+        - '&9 ● &3Kills: &f%strikepractice_kills%'
+        - '&9 ● &3Deaths: &f%strikepractice_deaths%'
+        - '&9 ● &3Rankeds Left: &f%strikepractice_rankeds_left%'
+        - '&9 ● &3Premiums Left: &f%strikepractice_premiummatches%'
+        - '&7&m---------------------------'
+        - ''
+      events:
+        material: ender_chest
+        slot: 25
+        update: true
+        left_click_commands:
+        - '[refresh]'
+        right_click_commands:
+        - '[refresh]'
+        display_name: '&9&lEvents'
+        lore:
+        - ''
+        - '&7&m---------------------------'
+        - '&9 ● &3LMS Wins: &f%strikepractice_lms_wins%'
+        - '&9 ● &3Brackets Wins: &f%strikepractice_brackets_wins%'
+        - '&7&m---------------------------'
+        - ''
+      'glass':
+        display_name: '&r'
+        material: STAINED_GLASS_PANE
+        data: 7
+        slots: 
+        - 0
+        - 1
+        - 3
+        - 4
+        - 5
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 20
+        - 22
+        - 24
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35

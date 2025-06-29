@@ -1,0 +1,248 @@
+menu_title: '&9&lEditor'
+open_command:
+- editor_menu
+register_command: true
+update-interval: 1
+size: 45
+items:
+      NoDebuff:
+        material: potion
+        data: 16421   
+        hide_effects: true
+        slot: 10
+        update: true
+        display_name: '&9&lNoDebuff'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor NoDebuff'
+        right_click_commands:
+        - '[player] editor NoDebuff'     
+        - '[close]'
+      Boxing:
+        material: DIAMOND_CHESTPLATE
+        hide_effects: true        
+        slot: 11
+        update: true
+        display_name: '&9&lBoxing'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor Boxing'
+        right_click_commands:
+        - '[player] editor Boxing'     
+        - '[close]'
+      Axe:
+        material: DIAMOND_AXE
+        hide_effects: true        
+        slot: 12
+        update: true
+        display_name: '&9&lAxe'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor Axe'
+        right_click_commands:
+        - '[player] editor Axe'     
+        - '[close]'
+      BuildUHC:
+        material: LAVA_BUCKET
+        hide_effects: true        
+        slot: 13
+        update: true
+        display_name: '&9&lBuildUHC'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor BuildUHC'
+        right_click_commands:
+        - '[player] editor BuildUHC'     
+        - '[close]'
+      Gapple:
+        material: GOLDEN_APPLE
+        hide_effects: true        
+        slot: 14
+        update: true
+        display_name: '&9&lGapple'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor Gapple'
+        right_click_commands:
+        - '[player] editor Gapple'     
+        - '[close]'
+      Classic:
+        material: DIAMOND_SWORD
+        hide_effects: true        
+        slot: 15
+        update: true
+        display_name: '&9&lClassic'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor Classic'
+        right_click_commands:
+        - '[player] editor Classic'     
+        - '[close]'
+      Fast NoDebuff:
+        material: potion
+        data: 16421
+        hide_effects: true        
+        slot: 16
+        update: true
+        display_name: '&9&lFast NoDebuff'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor FastNoDebuff'
+        right_click_commands:
+        - '[player] editor FastNoDebuff'     
+        - '[close]'
+      Iron NoDebuff:
+        material: potion
+        data: 16427
+        hide_effects: true        
+        slot: 19
+        update: true
+        display_name: '&9&lIron NoDebuff'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor IronNoDebuff'
+        right_click_commands:
+        - '[player] editor IronNoDebuff'     
+        - '[close]'
+      Fast Gapple:
+        material: GOLDEN_APPLE
+        hide_effects: true        
+        slot: 20
+        update: true
+        display_name: '&9&lFast Gapple'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor FastGapple'
+        right_click_commands:
+        - '[player] editor FastGapple'     
+        - '[close]'
+      Infinite Boxing:
+        material: GOLD_CHESTPLATE
+        hide_effects: true        
+        slot: 21
+        update: true
+        display_name: '&9&lInfinite Boxing'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor InfBoxing'
+        - '[message] <delay=215>'
+        - '[message] &9&lMatch:<delay=215>'
+        - '[message] &fUse &9/forfeit &9to quit the match.<delay=215>'
+        - '[message] <delay=215>'
+        right_click_commands:
+        - '[player] editor InfBoxing'     
+        - '[close]'
+      Pearl Boxing:
+        material: ENDER_PEARL
+        hide_effects: true        
+        slot: 22
+        update: true
+        display_name: '&9&lPearl Boxing'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor PearlBoxing'
+        right_click_commands:
+        - '[player] editor PearlBoxing'     
+        - '[close]'
+      Bow Boxing:
+        material: CHAINMAIL_CHESTPLATE
+        hide_effects: true        
+        slot: 23
+        update: true
+        display_name: '&9&lBow Boxing'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor BowBoxing'
+        right_click_commands:
+        - '[player] editor BowBoxing'     
+        - '[close]'
+      Rod Boxing:
+        material: FISHING_ROD
+        hide_effects: true        
+        slot: 24
+        update: true
+        display_name: '&9&lRod Boxing'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor RodBoxing'
+        right_click_commands:
+        - '[player] editor RodBoxing'     
+        - '[close]'
+      Debuff:
+        material: potion
+        data: 16388
+        hide_effects: true
+        slot: 25
+        update: true
+        display_name: '&9&lDebuff'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor Debuff'
+        right_click_commands:
+        - '[player] editor Debuff'     
+        - '[close]'
+      SG:
+        material: GOLDEN_CARROT
+        hide_effects: true        
+        slot: 28
+        update: true
+        display_name: '&9&lSG'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor SG'
+        right_click_commands:
+        - '[player] editor SG'     
+        - '[close]'
+      Ranked View:
+        material: ARROW
+        hide_effects: true        
+        slot: 44
+        update: true
+        display_name: '&9&lRanked View'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor_ranked_menu'
+        right_click_commands:
+        - '[player] editor_ranked_menu'
+        - '[close]'
+      glass:
+        display_name: '&r'
+        material: STAINED_GLASS_PANE
+        data: 7
+        slots:     
+        - 0-9
+        - 17-18
+        - 26-27
+        - 29-43

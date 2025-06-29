@@ -1,0 +1,234 @@
+menu_title: '&9&lUnranked Queue'
+open_command:
+- supersecretcommand
+register_command: true
+update-interval: 1
+size: 36
+items:
+      Previous Page:
+        material: CARPET
+        hide_effects: true
+        slot: 0
+        update: true
+        display_name: '&9Previous Page'
+        lore:
+        - ''
+        - '&9Click to select!'
+        left_click_commands:
+        - '[player] unranked_menu'
+        right_click_commands:
+        - '[player] unranked_menu'     
+        - '[close]'
+      Fast NoDebuff:
+        material: potion
+        data: 16421
+        hide_effects: true        
+        slot: 10
+        update: true
+        display_name: '&9&lFast NoDebuff'
+        lore:
+        - '&7NoDebuff but with less pots.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] unranked FastNoDebuff'
+        right_click_commands:
+        - '[player] unranked FastNoDebuff'     
+        - '[close]'
+      Iron NoDebuff:
+        material: potion
+        data: 16427
+        hide_effects: true        
+        slot: 11
+        update: true
+        display_name: '&9&lIron NoDebuff'
+        lore:
+        - '&7NoDebuff but with iron armor.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] unranked IronNoDebuff'
+        right_click_commands:
+        - '[player] unranked IronNoDebuff'     
+        - '[close]'
+      Fast Gapple:
+        material: GOLDEN_APPLE
+        hide_effects: true        
+        slot: 12
+        update: true
+        display_name: '&9&lFast Gapple'
+        lore:
+        - '&7Gapple but with all golden armor.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] unranked FastGapple'
+        right_click_commands:
+        - '[player] unranked FastGapple'     
+        - '[close]'
+      Infinite Boxing:
+        material: GOLD_CHESTPLATE
+        hide_effects: true        
+        slot: 13
+        update: true
+        display_name: '&9&lInfinite Boxing'
+        lore:
+        - '&7Boxing but with infinite hits.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] unranked InfBoxing'
+        - '[message] <delay=215>'
+        - '[message] &9&lMatch:<delay=215>'
+        - '[message] &fUse &9/forfeit &9to quit the match.<delay=215>'
+        - '[message] <delay=215>'
+        right_click_commands:
+        - '[player] unranked InfBoxing'     
+        - '[close]'
+      Pearl Boxing:
+        material: ENDER_PEARL
+        hide_effects: true        
+        slot: 14
+        update: true
+        display_name: '&9&lPearl Boxing'
+        lore:
+        - '&7Boxing but with pearls.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] unranked PearlBoxing'
+        right_click_commands:
+        - '[player] unranked PearlBoxing'     
+        - '[close]'
+      Bow Boxing:
+        material: CHAINMAIL_CHESTPLATE
+        hide_effects: true        
+        slot: 15
+        update: true
+        display_name: '&9&lBow Boxing'
+        lore:
+        - '&7Boxing but with bows and arrows.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] unranked BowBoxing'
+        right_click_commands:
+        - '[player] unranked BowBoxing'     
+        - '[close]'
+      Rod Boxing:
+        material: FISHING_ROD
+        hide_effects: true        
+        slot: 16
+        update: true
+        display_name: '&9&lRod Boxing'
+        lore:
+        - '&7Boxing but with a rod.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] unranked RodBoxing'
+        right_click_commands:
+        - '[player] unranked RodBoxing'     
+        - '[close]'
+      Sumo Fly:
+        material: RAW_FISH
+        data: 3
+        hide_effects: true        
+        slot: 19
+        update: true
+        display_name: '&9&lSumo Fly'
+        lore:
+        - '&7Sumo with no hit delay.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] unranked SumoFly'
+        right_click_commands:
+        - '[player] unranked SumoFly'     
+        - '[close]'
+      Pearl Sumo:
+        material: EYE_OF_ENDER
+        hide_effects: true        
+        slot: 20
+        update: true
+        display_name: '&9&lPearl Sumo'
+        lore:
+        - '&7Sumo with pearls.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] unranked PearlSumo'
+        right_click_commands:
+        - '[player] unranked PearlSumo'     
+        - '[close]'
+      Bow Sumo:
+        material: BOW
+        hide_effects: true        
+        slot: 21
+        update: true
+        display_name: '&9&lBow Sumo'
+        lore:
+        - '&7Sumo with bows and arrows.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] unranked BowSumo'
+        right_click_commands:
+        - '[player] unranked BowSumo'     
+        - '[close]'
+      OnePunch:
+        material: GHAST_TEAR
+        hide_effects: true        
+        slot: 22
+        update: true
+        display_name: '&9&lOne Punch'
+        lore:
+        - '&7Hit your opponent to win.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] unranked OnePunch'
+        right_click_commands:
+        - '[player] unranked OnePunch'     
+        - '[close]'
+      Debuff:
+        material: potion
+        data: 16388
+        hide_effects: true
+        slot: 23
+        update: true
+        display_name: '&9&lDebuff'
+        lore:
+        - '&7NoDebuff but with'
+        - '&7more potions.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] unranked Debuff'
+        right_click_commands:
+        - '[player] unranked Debuff'     
+        - '[close]'
+      SG:
+        material: GOLDEN_CARROT
+        hide_effects: true        
+        slot: 24
+        update: true
+        display_name: '&9&lSG'
+        lore:
+        - '&7Your average kit for'
+        - '&7Survival Games.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] unranked SG'
+        right_click_commands:
+        - '[player] unranked SG'     
+        - '[close]'
+      glass:
+        display_name: '&r'
+        material: STAINED_GLASS_PANE
+        data: 7
+        slots:     
+        - 1-9
+        - 17-18
+        - 25-35

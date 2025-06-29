@@ -1,0 +1,42 @@
+groups:
+  default:
+    options:
+      default: true
+    permissions:
+    - tag.membro
+  ceo:
+    options:
+      default: false
+    permissions:
+    - tag.ceo
+  gerente:
+    options:
+      default: false
+    permissions:
+    - tag.gerente
+  admin:
+    options:
+      default: false
+    permissions:
+    - tag.admin
+  helper:
+    options:
+      default: false
+    permissions:
+    - tag.helper
+  famous:
+    options:
+      default: false
+    permissions:
+    - tag.famous
+  legacy:
+    options:
+      default: false
+    permissions:
+    - tag.legacy
+  vip:
+    options:
+      default: false
+    permissions:
+    - tag.vip
+schema-version: 1

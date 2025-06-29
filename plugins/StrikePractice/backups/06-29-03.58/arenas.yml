@@ -1,0 +1,69 @@
+arenas:
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenasall
+    x: -680.1764429029452
+    y: 24.0
+    z: -8.698595449526444
+    pitch: -0.44990286
+    yaw: 270.30173
+  loc1:
+    ==: Location
+    world: arenasall
+    x: -610.4519208262623
+    y: 24.0
+    z: -8.93458842201709
+    pitch: 1.2000673
+    yaw: 91.05068
+  display-name: null
+  center:
+    ==: Location
+    world: arenasall
+    x: -646.5466796666273
+    y: 24.0
+    z: -9.023433874485466
+    pitch: 1.2000673
+    yaw: 91.05068
+  name: obsidian
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: obsidian
+- ==: Arena
+  loc2:
+    ==: Location
+    world: arenasall
+    x: -800.9883386533328
+    y: 7.0
+    z: 214.02970239896007
+    pitch: -1.5001147
+    yaw: -269.70053
+  loc1:
+    ==: Location
+    world: arenasall
+    x: -879.5018859210878
+    y: 7.0
+    z: 214.01789766714435
+    pitch: -1.5000315
+    yaw: -90.001274
+  display-name: null
+  center:
+    ==: Location
+    world: arenasall
+    x: -851.0261786311186
+    y: 7.0
+    z: 214.00274683373507
+    pitch: 3.149927
+    yaw: -87.90125
+  name: kimetsunoyaiba
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: kimetsunoyaiba

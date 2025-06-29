@@ -4,8 +4,8 @@ duel-requests-disabled: false
 hide-other-players: false
 stats:
   brackets: 0
-  kills: 0
-  deaths: 0
+  kills: 1
+  deaths: 2
   lms: 0
   party_vs_party_wins: 0
   global_elo: 1000

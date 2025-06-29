@@ -1,0 +1,139 @@
+menu_title: '&9&lRanked Queue'
+open_command:
+- ranked_menu
+register_command: true
+update-interval: 1
+size: 27
+items:
+      Previous Page:
+        material: CARPET
+        hide_effects: true
+        slot: 0
+        update: true
+        display_name: '&9Previous Page'
+        lore:
+        - ''
+        - '&9Click to select!'
+        left_click_commands:
+        - '[player] queues'
+        right_click_commands:
+        - '[player] queues'     
+        - '[close]'
+      NoDebuff:
+        material: potion
+        data: 16421   
+        hide_effects: true
+        slot: 10
+        update: true
+        display_name: '&9&lNoDebuff'
+        lore:
+        - '&7Fight till you run'
+        - '&7out of potions.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] ranked NoDebuff-ranked'
+        right_click_commands:
+        - '[player] ranked NoDebuff-ranked'     
+        - '[close]'
+      Boxing:
+        material: DIAMOND_CHESTPLATE
+        hide_effects: true        
+        slot: 11
+        update: true
+        display_name: '&9&lBoxing'
+        lore:
+        - '&7First to 100 hits wins.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] ranked Boxing-ranked'
+        right_click_commands:
+        - '[player] ranked Boxing-ranked'     
+        - '[close]'
+      Axe:
+        material: DIAMOND_AXE
+        hide_effects: true        
+        slot: 12
+        update: true
+        display_name: '&9&lAxe'
+        lore:
+        - '&7NoDebuff but with'
+        - '&7an axe and less potions.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] ranked Axe-ranked'
+        right_click_commands:
+        - '[player] ranked Axe-ranked'     
+        - '[close]'
+      BuildUHC:
+        material: LAVA_BUCKET
+        hide_effects: true        
+        slot: 13
+        update: true
+        display_name: '&9&lBuildUHC'
+        lore:
+        - '&7Kit with all the essentials'
+        - '&7you need to fight.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] ranked BuildUHC-ranked'
+        right_click_commands:
+        - '[player] ranked BuildUHC-ranked'     
+        - '[close]'
+      Gapple:
+        material: GOLDEN_APPLE
+        hide_effects: true        
+        slot: 14
+        update: true
+        display_name: '&9&lGapple'
+        lore:
+        - '&7Fight till your armor breaks.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] ranked Gapple-ranked'
+        right_click_commands:
+        - '[player] ranked Gapple-ranked'     
+        - '[close]'
+      Classic:
+        material: DIAMOND_SWORD
+        hide_effects: true        
+        slot: 15
+        update: true
+        display_name: '&9&lClassic'
+        lore:
+        - '&7Kit with a average gear'
+        - '&7to fight.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] ranked Classic-ranked'
+        right_click_commands:
+        - '[player] ranked Classic-ranked'     
+        - '[close]'
+      Sumo:
+        material: LEASH
+        hide_effects: true        
+        slot: 16
+        update: true
+        display_name: '&9&lSumo'
+        lore:
+        - '&7Knock your opponent off'
+        - '&7the platform.'
+        - ''
+        - '&9Click to queue!'
+        left_click_commands:
+        - '[player] ranked Sumo-ranked'
+        right_click_commands:
+        - '[player] ranked Sumo-ranked'     
+        - '[close]'
+      glass:
+        display_name: '&r'
+        material: STAINED_GLASS_PANE
+        data: 7
+        slots:     
+        - 1-9
+        - 17-26

@@ -1,0 +1,127 @@
+menu_title: '&9&lRanked Editor'
+open_command:
+- editor_ranked_menu
+register_command: true
+update-interval: 1
+size: 27
+items:
+      Previous Page:
+        material: CARPET
+        hide_effects: true
+        slot: 0
+        update: true
+        display_name: '&9Previous Page'
+        lore:
+        - ''
+        - '&9Click to select!'
+        left_click_commands:
+        - '[player] editor_menu'
+        right_click_commands:
+        - '[player] editor_menu'     
+        - '[close]'
+      NoDebuff:
+        material: potion
+        data: 16421   
+        hide_effects: true
+        slot: 10
+        update: true
+        display_name: '&9&lNoDebuff'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor NoDebuff'
+        right_click_commands:
+        - '[player] editor NoDebuff'     
+        - '[close]'
+      Boxing:
+        material: DIAMOND_CHESTPLATE
+        hide_effects: true        
+        slot: 11
+        update: true
+        display_name: '&9&lBoxing'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor Boxing'
+        right_click_commands:
+        - '[player] editor Boxing'     
+        - '[close]'
+      Axe:
+        material: DIAMOND_AXE
+        hide_effects: true        
+        slot: 12
+        update: true
+        display_name: '&9&lAxe'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor Axe'
+        right_click_commands:
+        - '[player] editor Axe'     
+        - '[close]'
+      BuildUHC:
+        material: LAVA_BUCKET
+        hide_effects: true        
+        slot: 13
+        update: true
+        display_name: '&9&lBuildUHC'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor BuildUHC'
+        right_click_commands:
+        - '[player] editor BuildUHC'     
+        - '[close]'
+      Gapple:
+        material: GOLDEN_APPLE
+        hide_effects: true        
+        slot: 14
+        update: true
+        display_name: '&9&lGapple'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor Gapple'
+        right_click_commands:
+        - '[player] editor Gapple'     
+        - '[close]'
+      Classic:
+        material: DIAMOND_SWORD
+        hide_effects: true        
+        slot: 15
+        update: true
+        display_name: '&9&lClassic'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor Classic'
+        right_click_commands:
+        - '[player] editor Classic'     
+        - '[close]'
+      Sumo:
+        material: LEASH
+        hide_effects: true        
+        slot: 16
+        update: true
+        display_name: '&9&lSumo'
+        lore:
+        - ''
+        - '&9Click to edit!'
+        left_click_commands:
+        - '[player] editor Sumo'
+        right_click_commands:
+        - '[player] editor Sumo'     
+        - '[close]'
+      glass:
+        display_name: '&r'
+        material: STAINED_GLASS_PANE
+        data: 7
+        slots:     
+        - 1-9
+        - 17-26

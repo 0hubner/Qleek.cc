@@ -1,0 +1,99 @@
+menu_title: '&9&lSeleccione un modo de juego!'
+open_command: queues
+update_interval: 1
+size: 36
+items:
+  unranked:
+    material: IRON_SWORD
+    update: true
+    slot: 11
+    hide_attributes: true
+    display_name: '&9&lCola sin clasificar'
+    lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9 ● &3En Cola: &f%strikepractice_in_unranked_queue%'
+    - '&9 ● &3Jugando: &f%strikepractice_in_fight%'
+    - ''
+    - ''
+    - '&7&oHaga clic para abrir el selector Sin clasificar.'
+    - '&7&m---------------------------'
+    - ''
+    left_click_commands:
+    - '[player] unranked_menu'
+    right_click_commands:
+    - '[player] unranked_menu'
+  ranked:
+    material: DIAMOND_SWORD
+    slot: 13
+    hide_attributes: true
+    display_name: '&9&lCola clasificatoria'
+    lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9 ● &3En Cola: &f%strikepractice_in_ranked_queue%'
+    - '&9 ● &3Jugando: &f%strikepractice_in_fight%'
+    - ''
+    - ''
+    - '&7&oHaz clic para abrir el selector de clasificatorias.'
+    - '&7&m---------------------------'
+    - ''
+    left_click_commands:
+    - '[player] ranked_menu'
+    right_click_commands:
+    - '[player] ranked_menu'
+  pvpbot:
+    material: SKULL_ITEM
+    data: 1
+    slot: 15
+    display_name: '&9&lBots'
+    lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&3Entrena tus habilidades pvp con bot.'
+    - ''
+    - '&7&oHaga clic para abrir el selector de bots.'
+    - '&7&m---------------------------'
+    - ''
+    left_click_commands:
+    - '[player] botfights'
+    right_click_commands:
+    - '[player] botfights'
+  glass:
+    display_name: '&r'
+    material: STAINED_GLASS_PANE
+    data: 7
+    slots: 
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 12
+    - 14
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35

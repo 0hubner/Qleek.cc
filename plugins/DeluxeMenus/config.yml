@@ -1,0 +1,28 @@
+# DeluxeMenus 1.13.3-Release main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://github.com/help-chat/DeluxeMenus/wiki
+
+debug: false
+check_updates: true
+gui_menus:
+  unranked_menu:
+    file: unranked_menu.yml
+  extra_kits:
+    file: extra_kits.yml
+  ranked_menu:
+    file: ranked_menu.yml
+  queues:
+    file: queues.yml
+  partyevents:
+    file: partyevents.yml
+  settings:
+    file: settings.yml
+  editor:
+    file: editor.yml
+  editor_ranked:
+    file: editor_ranked.yml
+  PvPBot:
+    file: botfight_menu.yml
+  Stats:
+    file: stats.yml

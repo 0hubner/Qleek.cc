@@ -1,227 +1,459 @@
-[03:23:52] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[03:23:52] [Server thread/INFO]: Loading properties
-[03:23:52] [Server thread/INFO]: Default game type: SURVIVAL
-[03:23:52] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-21fe707-e1ebe52 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[03:23:53] [Server thread/INFO]: Debug logging is disabled
-[03:23:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:23:53] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:23:53] [Server thread/INFO]: Generating keypair
-[03:23:53] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:23:53] [Server thread/INFO]: Using default channel type
-[03:23:53] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[03:23:53] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v1.1
-[03:23:53] [Server thread/INFO]: [StrikePractice] Loading StrikePractice v3.8.1-SNAPSHOT
-[03:23:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:23:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:23:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:23:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:23:53] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[03:23:53] [Server thread/INFO]: Preparing level "lobby"
-[03:23:53] [Server thread/INFO]: -------- World Settings For [lobby] --------
-[03:23:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[03:23:53] [Server thread/INFO]: Max Entity Collisions: 8
-[03:23:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[03:23:53] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[03:23:53] [Server thread/INFO]: Item Despawn Rate: 6000
-[03:23:53] [Server thread/INFO]: Item Merge Radius: 2.5
-[03:23:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[03:23:53] [Server thread/INFO]: View Distance: 10
-[03:23:53] [Server thread/INFO]: Experience Merge Radius: 3.0
-[03:23:53] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[03:23:53] [Server thread/INFO]: Clear tick list: false
-[03:23:53] [Server thread/INFO]: Anti X-Ray: true
-[03:23:53] [Server thread/INFO]: 	Engine Mode: 1
-[03:23:53] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[03:23:53] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[03:23:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[03:23:53] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[03:23:53] [Server thread/INFO]: Random Lighting Updates: false
-[03:23:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[03:23:53] [Server thread/INFO]: Structure Info Saving: true
-[03:23:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[03:23:53] [Server thread/INFO]: Cane Growth Modifier: 100%
-[03:23:53] [Server thread/INFO]: Melon Growth Modifier: 100%
-[03:23:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[03:23:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[03:23:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[03:23:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[03:23:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[03:23:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[03:23:53] [Server thread/INFO]: Mob Spawn Range: 4
-[03:23:53] [Server thread/INFO]: Max TNT Explosions: 100
-[03:23:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[03:23:53] [Server thread/INFO]: Sending up to 10 chunks per packet
-[03:23:53] [Server thread/INFO]: -------- World Settings For [lobby_the_end] --------
-[03:23:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[03:23:53] [Server thread/INFO]: Max Entity Collisions: 8
-[03:23:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[03:23:53] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[03:23:53] [Server thread/INFO]: Item Despawn Rate: 6000
-[03:23:53] [Server thread/INFO]: Item Merge Radius: 2.5
-[03:23:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[03:23:53] [Server thread/INFO]: View Distance: 10
-[03:23:53] [Server thread/INFO]: Experience Merge Radius: 3.0
-[03:23:53] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[03:23:53] [Server thread/INFO]: Clear tick list: false
-[03:23:53] [Server thread/INFO]: Anti X-Ray: true
-[03:23:53] [Server thread/INFO]: 	Engine Mode: 1
-[03:23:53] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[03:23:53] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[03:23:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[03:23:53] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[03:23:53] [Server thread/INFO]: Random Lighting Updates: false
-[03:23:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[03:23:53] [Server thread/INFO]: Structure Info Saving: true
-[03:23:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[03:23:53] [Server thread/INFO]: Cane Growth Modifier: 100%
-[03:23:53] [Server thread/INFO]: Melon Growth Modifier: 100%
-[03:23:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[03:23:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[03:23:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[03:23:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[03:23:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[03:23:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[03:23:53] [Server thread/INFO]: Mob Spawn Range: 4
-[03:23:53] [Server thread/INFO]: Max TNT Explosions: 100
-[03:23:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[03:23:53] [Server thread/INFO]: Sending up to 10 chunks per packet
-[03:23:53] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3931161012274231271)
-[03:23:54] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8288325700589354662)
-[03:23:54] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v1.1
-[03:23:54] [Server thread/INFO]: -------- World Settings For [arenas] --------
-[03:23:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[03:23:54] [Server thread/INFO]: Max Entity Collisions: 8
-[03:23:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[03:23:54] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[03:23:54] [Server thread/INFO]: Item Despawn Rate: 6000
-[03:23:54] [Server thread/INFO]: Item Merge Radius: 2.5
-[03:23:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[03:23:54] [Server thread/INFO]: View Distance: 10
-[03:23:54] [Server thread/INFO]: Experience Merge Radius: 3.0
-[03:23:54] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[03:23:54] [Server thread/INFO]: Clear tick list: false
-[03:23:54] [Server thread/INFO]: Anti X-Ray: true
-[03:23:54] [Server thread/INFO]: 	Engine Mode: 1
-[03:23:54] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[03:23:54] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[03:23:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[03:23:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[03:23:54] [Server thread/INFO]: Random Lighting Updates: false
-[03:23:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[03:23:54] [Server thread/INFO]: Structure Info Saving: true
-[03:23:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[03:23:54] [Server thread/INFO]: Cane Growth Modifier: 100%
-[03:23:54] [Server thread/INFO]: Melon Growth Modifier: 100%
-[03:23:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[03:23:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[03:23:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[03:23:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[03:23:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[03:23:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[03:23:54] [Server thread/INFO]: Mob Spawn Range: 4
-[03:23:54] [Server thread/INFO]: Max TNT Explosions: 100
-[03:23:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[03:23:54] [Server thread/INFO]: Sending up to 10 chunks per packet
-[03:23:54] [Server thread/INFO]: Preparing start region for level 2 (Seed: 5911387266212397358)
-[03:23:55] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: Arenas_1
-[03:23:55] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
-[03:23:55] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: Arenas_2
-[03:23:55] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
-[03:23:55] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[03:23:55] [Server thread/INFO]: false
-[03:23:55] [Server thread/INFO]: [Multiverse-Core] Version 1.1 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
-[03:23:55] [Server thread/INFO]: [StrikePractice] Enabling StrikePractice v3.8.1-SNAPSHOT
-[03:23:55] [Server thread/INFO]: ---------------------------------
-[03:23:55] [Server thread/INFO]: Copied default config with comments to plugins\StrikePractice\default_config_with_comments_do_not_edit.yml
-[03:23:55] [Server thread/INFO]: ---------------------------------
-[03:23:55] [Server thread/WARN]: [StrikePractice] Default system encoding may have misread config.yml from plugin jar
-[03:23:55] [Server thread/INFO]: StrikePractice>> Version supported! (1_8_R3)
-[03:23:55] [Server thread/INFO]: Player practice commands registered: night, day, sun, report, ping, practicecommands
-[03:23:55] [Server thread/WARN]: If you get an error like 'No key layers in MapLike...', set 'empty-arenas-world: false' (especially on 1.17+)
-[03:23:55] [Server thread/INFO]: Using older empty world generator!
-[03:23:55] [Server thread/WARN]: Download BadlionClientTimerAPI to support cooldowns for BAC. https://github.com/BadlionNetwork/BadlionClientTimerAPI/releases
-[03:23:55] [Server thread/INFO]: Registered client cooldowns for lunar-client
-[03:23:55] [Server thread/INFO]: Scoreboard delay: 20, lobby: 100, syncSet: true
-[03:23:55] [Server thread/INFO]: [StrikePractice] Preloading recorded matches in async thread...
-[03:23:55] [Server thread/INFO]: -------- World Settings For [arenas_1] --------
-[03:23:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[03:23:55] [Server thread/INFO]: Max Entity Collisions: 8
-[03:23:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[03:23:55] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[03:23:55] [Server thread/INFO]: Item Despawn Rate: 6000
-[03:23:55] [Server thread/INFO]: Item Merge Radius: 2.5
-[03:23:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[03:23:55] [ForkJoinPool.commonPool-worker-9/INFO]: Deleted 0 matches (older than 7.0 days)
-[03:23:55] [Server thread/INFO]: View Distance: 10
-[03:23:55] [ForkJoinPool.commonPool-worker-9/INFO]: Preloaded 0 matches in 0 seconds.
-[03:23:55] [Server thread/INFO]: Experience Merge Radius: 3.0
-[03:23:55] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[03:23:55] [Server thread/INFO]: Clear tick list: false
-[03:23:55] [Server thread/INFO]: Anti X-Ray: true
-[03:23:55] [Server thread/INFO]: 	Engine Mode: 1
-[03:23:55] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[03:23:55] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[03:23:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[03:23:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[03:23:55] [Server thread/INFO]: Random Lighting Updates: false
-[03:23:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[03:23:55] [Server thread/INFO]: Structure Info Saving: true
-[03:23:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[03:23:55] [Server thread/INFO]: Cane Growth Modifier: 100%
-[03:23:55] [Server thread/INFO]: Melon Growth Modifier: 100%
-[03:23:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[03:23:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[03:23:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[03:23:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[03:23:55] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[03:23:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[03:23:55] [Server thread/INFO]: Mob Spawn Range: 4
-[03:23:55] [Server thread/INFO]: Max TNT Explosions: 100
-[03:23:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[03:23:55] [Server thread/INFO]: Sending up to 10 chunks per packet
-[03:23:55] [Server thread/INFO]: Preparing start region for level 3 (Seed: 4875038683066739279)
-[03:23:56] [Server thread/INFO]: Copied 17 arenas to the new world.
-[03:23:56] [Server thread/INFO]: Copied the worlds and the arenas in 478 ms.
-[03:23:56] [Server thread/INFO]: -------- World Settings For [arenas_2] --------
-[03:23:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[03:23:56] [Server thread/INFO]: Max Entity Collisions: 8
-[03:23:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[03:23:56] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[03:23:56] [Server thread/INFO]: Item Despawn Rate: 6000
-[03:23:56] [Server thread/INFO]: Item Merge Radius: 2.5
-[03:23:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[03:23:56] [Server thread/INFO]: View Distance: 10
-[03:23:56] [Server thread/INFO]: Experience Merge Radius: 3.0
-[03:23:56] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[03:23:56] [Server thread/INFO]: Clear tick list: false
-[03:23:56] [Server thread/INFO]: Anti X-Ray: true
-[03:23:56] [Server thread/INFO]: 	Engine Mode: 1
-[03:23:56] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[03:23:56] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[03:23:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[03:23:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[03:23:56] [Server thread/INFO]: Random Lighting Updates: false
-[03:23:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[03:23:56] [Server thread/INFO]: Structure Info Saving: true
-[03:23:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[03:23:56] [Server thread/INFO]: Cane Growth Modifier: 100%
-[03:23:56] [Server thread/INFO]: Melon Growth Modifier: 100%
-[03:23:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[03:23:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[03:23:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[03:23:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[03:23:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[03:23:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[03:23:56] [Server thread/INFO]: Mob Spawn Range: 4
-[03:23:56] [Server thread/INFO]: Max TNT Explosions: 100
-[03:23:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[03:23:56] [Server thread/INFO]: Sending up to 10 chunks per packet
-[03:23:56] [Server thread/INFO]: Preparing start region for level 4 (Seed: 7924610884758011523)
-[03:23:56] [Server thread/INFO]: Copied 17 arenas to the new world.
-[03:23:56] [Server thread/INFO]: Copied the worlds and the arenas in 250 ms.
-[03:23:56] [Server thread/WARN]: keep-arenas-loaded could not be enabled! Probably old server software.
-[03:23:56] [Server thread/INFO]: Enabled (experimental) report replays. Disable with disable-report-replay: true
-[03:23:59] [Server thread/INFO]: StrikePractice >> Performance mode enabled!
-[03:23:59] [Server thread/INFO]: [StrikePractice] StrikePractice was enabled in 4028 ms.
-[03:23:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:23:59] [Server thread/INFO]: Done (5,909s)! For help, type "help" or "?"
+[05:09:39] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[05:09:39] [Server thread/INFO]: Loading properties
+[05:09:39] [Server thread/INFO]: Default game type: SURVIVAL
+[05:09:39] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-21fe707-e1ebe52 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[05:09:39] [Server thread/INFO]: Debug logging is disabled
+[05:09:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:09:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:09:39] [Server thread/INFO]: Generating keypair
+[05:09:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:09:40] [Server thread/INFO]: Using default channel type
+[05:09:40] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[05:09:40] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[05:09:40] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[05:09:40] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[05:09:40] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[05:09:40] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.4
+[05:09:40] [Server thread/INFO]: [StormTags] Loading StormTags v1.0.7
+[05:09:40] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v1.1
+[05:09:40] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.27-SNAPSHOT (build 2099)
+[05:09:40] [Server thread/INFO]: [CommandNPC] Loading CommandNPC v2.1.3
+[05:09:40] [Server thread/INFO]: [StrikePractice] Loading StrikePractice v3.8.1-SNAPSHOT
+[05:09:40] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.3-Release
+[05:09:40] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[05:09:40] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[05:09:40] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[05:09:40] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[05:09:40] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[05:09:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:09:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:09:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:09:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:09:40] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[05:09:40] [Server thread/INFO]: Preparing level "lobby"
+[05:09:40] [Server thread/INFO]: -------- World Settings For [lobby] --------
+[05:09:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:09:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[05:09:40] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:09:40] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:09:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:09:40] [Server thread/INFO]: View Distance: 10
+[05:09:40] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:09:40] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[05:09:40] [Server thread/INFO]: Clear tick list: false
+[05:09:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[05:09:40] [Server thread/INFO]: Max Entity Collisions: 8
+[05:09:40] [Server thread/INFO]: Mob Spawn Range: 4
+[05:09:40] [Server thread/INFO]: Anti X-Ray: true
+[05:09:40] [Server thread/INFO]: 	Engine Mode: 1
+[05:09:40] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[05:09:40] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[05:09:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:09:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[05:09:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[05:09:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:09:40] [Server thread/INFO]: Random Lighting Updates: false
+[05:09:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:09:40] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:09:40] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:09:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:09:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:09:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:09:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:09:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:09:40] [Server thread/INFO]: Sending up to 10 chunks per packet
+[05:09:40] [Server thread/INFO]: Max TNT Explosions: 100
+[05:09:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[05:09:40] [Server thread/INFO]: Structure Info Saving: true
+[05:09:40] [Server thread/INFO]: -------- World Settings For [lobby_the_end] --------
+[05:09:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:09:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[05:09:40] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:09:40] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:09:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:09:40] [Server thread/INFO]: View Distance: 10
+[05:09:40] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:09:40] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[05:09:40] [Server thread/INFO]: Clear tick list: false
+[05:09:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[05:09:40] [Server thread/INFO]: Max Entity Collisions: 8
+[05:09:40] [Server thread/INFO]: Mob Spawn Range: 4
+[05:09:40] [Server thread/INFO]: Anti X-Ray: true
+[05:09:40] [Server thread/INFO]: 	Engine Mode: 1
+[05:09:40] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[05:09:40] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[05:09:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:09:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[05:09:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[05:09:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:09:40] [Server thread/INFO]: Random Lighting Updates: false
+[05:09:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:09:40] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:09:40] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:09:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:09:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:09:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:09:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:09:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:09:40] [Server thread/INFO]: Sending up to 10 chunks per packet
+[05:09:40] [Server thread/INFO]: Max TNT Explosions: 100
+[05:09:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[05:09:40] [Server thread/INFO]: Structure Info Saving: true
+[05:09:40] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3931161012274231271)
+[05:09:41] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8288325700589354662)
+[05:09:41] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[05:09:41] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[05:09:41] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[05:09:41] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[05:09:41] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[05:09:41] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[05:09:41] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[05:09:42] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[05:09:42] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.4
+[05:09:42] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[05:09:42] [Server thread/INFO]: [StormTags] Enabling StormTags v1.0.7
+[05:09:42] [Server thread/INFO]: [0;32;1m[StormTags] Carregado 8 tags.[m
+[05:09:42] [Server thread/INFO]: [0;32;1m[StormTags] Sincronizado com PlaceholderAPI.[m
+[05:09:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: stormtags [1.0]
+[05:09:42] [Server thread/INFO]: [0;32;1m[StormTags] O plugin foi iniciado (12ms).[m
+[05:09:42] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v1.1
+[05:09:42] [Server thread/INFO]: -------- World Settings For [arenas] --------
+[05:09:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:09:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[05:09:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:09:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:09:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:09:42] [Server thread/INFO]: View Distance: 10
+[05:09:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:09:42] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[05:09:42] [Server thread/INFO]: Clear tick list: false
+[05:09:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[05:09:42] [Server thread/INFO]: Max Entity Collisions: 8
+[05:09:42] [Server thread/INFO]: Mob Spawn Range: 4
+[05:09:42] [Server thread/INFO]: Anti X-Ray: true
+[05:09:42] [Server thread/INFO]: 	Engine Mode: 1
+[05:09:42] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[05:09:42] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[05:09:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:09:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[05:09:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[05:09:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:09:42] [Server thread/INFO]: Random Lighting Updates: false
+[05:09:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Sending up to 10 chunks per packet
+[05:09:42] [Server thread/INFO]: Max TNT Explosions: 100
+[05:09:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[05:09:42] [Server thread/INFO]: Structure Info Saving: true
+[05:09:42] [Server thread/INFO]: Preparing start region for level 2 (Seed: -6056758618610443435)
+[05:09:42] [Thread-8/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[05:09:42] [Server thread/INFO]: -------- World Settings For [arenas_2] --------
+[05:09:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:09:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[05:09:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:09:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:09:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:09:42] [Server thread/INFO]: View Distance: 10
+[05:09:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:09:42] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[05:09:42] [Server thread/INFO]: Clear tick list: false
+[05:09:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[05:09:42] [Server thread/INFO]: Max Entity Collisions: 8
+[05:09:42] [Server thread/INFO]: Mob Spawn Range: 4
+[05:09:42] [Server thread/INFO]: Anti X-Ray: true
+[05:09:42] [Server thread/INFO]: 	Engine Mode: 1
+[05:09:42] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[05:09:42] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[05:09:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:09:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[05:09:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[05:09:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:09:42] [Server thread/INFO]: Random Lighting Updates: false
+[05:09:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Sending up to 10 chunks per packet
+[05:09:42] [Server thread/INFO]: Max TNT Explosions: 100
+[05:09:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[05:09:42] [Server thread/INFO]: Structure Info Saving: true
+[05:09:42] [Server thread/INFO]: Preparing start region for level 3 (Seed: 4409871307468956519)
+[05:09:42] [Server thread/INFO]: -------- World Settings For [arenas_1] --------
+[05:09:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:09:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[05:09:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:09:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:09:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:09:42] [Server thread/INFO]: View Distance: 10
+[05:09:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:09:42] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[05:09:42] [Server thread/INFO]: Clear tick list: false
+[05:09:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[05:09:42] [Server thread/INFO]: Max Entity Collisions: 8
+[05:09:42] [Server thread/INFO]: Mob Spawn Range: 4
+[05:09:42] [Server thread/INFO]: Anti X-Ray: true
+[05:09:42] [Server thread/INFO]: 	Engine Mode: 1
+[05:09:42] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[05:09:42] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[05:09:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:09:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[05:09:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[05:09:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:09:42] [Server thread/INFO]: Random Lighting Updates: false
+[05:09:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Sending up to 10 chunks per packet
+[05:09:42] [Server thread/INFO]: Max TNT Explosions: 100
+[05:09:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[05:09:42] [Server thread/INFO]: Structure Info Saving: true
+[05:09:42] [Server thread/INFO]: Preparing start region for level 4 (Seed: 5761408495190758811)
+[05:09:42] [Server thread/INFO]: -------- World Settings For [arenasall] --------
+[05:09:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:09:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[05:09:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:09:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:09:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:09:42] [Server thread/INFO]: View Distance: 10
+[05:09:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:09:42] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[05:09:42] [Server thread/INFO]: Clear tick list: false
+[05:09:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[05:09:42] [Server thread/INFO]: Max Entity Collisions: 8
+[05:09:42] [Server thread/INFO]: Mob Spawn Range: 4
+[05:09:42] [Server thread/INFO]: Anti X-Ray: true
+[05:09:42] [Server thread/INFO]: 	Engine Mode: 1
+[05:09:42] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[05:09:42] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[05:09:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:09:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[05:09:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[05:09:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:09:42] [Server thread/INFO]: Random Lighting Updates: false
+[05:09:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:09:42] [Server thread/INFO]: Sending up to 10 chunks per packet
+[05:09:42] [Server thread/INFO]: Max TNT Explosions: 100
+[05:09:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[05:09:42] [Server thread/INFO]: Structure Info Saving: true
+[05:09:42] [Server thread/INFO]: Preparing start region for level 5 (Seed: -1222633218287679228)
+[05:09:42] [Server thread/INFO]: [Multiverse-Core] 9 - World(s) loaded.
+[05:09:42] [Server thread/INFO]: false
+[05:09:42] [Server thread/INFO]: [Multiverse-Core] Version 1.1 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
+[05:09:42] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.27-SNAPSHOT (build 2099)
+[05:09:42] [Server thread/ERROR]: [Citizens] Missing translation for system language (pt_BR): defaulting to English
+[05:09:43] [Server thread/INFO]: [CommandNPC] Enabling CommandNPC v2.1.3
+[05:09:43] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mVault compatible economy not found! Economy support for CommandNPC has been disabled.[m
+[05:09:43] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mInitiating Database[m
+[05:09:43] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mInjecting command info into Citizens.[m
+[05:09:43] [Thread-10/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mLoading commands complete![m
+[05:09:43] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mChecking config for update checker[m
+[05:09:43] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mChecking for updates[m
+[05:09:43] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mCommandNPC successfully loaded![m
+[05:09:43] [Server thread/INFO]: [StrikePractice] Enabling StrikePractice v3.8.1-SNAPSHOT
+[05:09:43] [Server thread/INFO]: ---------------------------------
+[05:09:43] [Server thread/INFO]: Copied default config with comments to plugins\StrikePractice\default_config_with_comments_do_not_edit.yml
+[05:09:43] [Server thread/INFO]: ---------------------------------
+[05:09:43] [Server thread/WARN]: [StrikePractice] Default system encoding may have misread config.yml from plugin jar
+[05:09:43] [Server thread/INFO]: StrikePractice>> Version supported! (1_8_R3)
+[05:09:43] [Thread-12/INFO]: [CommandNPC] Checking for update...
+[05:09:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: strikepractice [3.8.1-SNAPSHOT]
+[05:09:43] [Server thread/INFO]: Player practice commands registered: night, day, sun, report, ping, practicecommands
+[05:09:43] [Server thread/WARN]: If you get an error like 'No key layers in MapLike...', set 'empty-arenas-world: false' (especially on 1.17+)
+[05:09:43] [Server thread/INFO]: Using older empty world generator!
+[05:09:43] [Server thread/WARN]: Download BadlionClientTimerAPI to support cooldowns for BAC. https://github.com/BadlionNetwork/BadlionClientTimerAPI/releases
+[05:09:43] [Server thread/INFO]: Registered client cooldowns for lunar-client
+[05:09:43] [Server thread/INFO]: Scoreboard delay: 20, lobby: 100, syncSet: true
+[05:09:43] [Server thread/INFO]: [StrikePractice] Preloading recorded matches in async thread...
+[05:09:43] [Thread-12/INFO]: [CommandNPC] Version installed is 2.1.3
+[05:09:43] [Thread-12/INFO]: [CommandNPC] Latest version found online is 2.1.3
+[05:09:43] [Thread-12/INFO]: [CommandNPC] No update found.
+[05:09:43] [ForkJoinPool.commonPool-worker-9/INFO]: Deleted 0 matches (older than 7.0 days)
+[05:09:43] [ForkJoinPool.commonPool-worker-9/INFO]: Preloaded 8 matches in 0 seconds.
+[05:09:43] [Server thread/INFO]: Copied 0 arenas to the new world.
+[05:09:43] [Server thread/INFO]: Copied the worlds and the arenas in 223 ms.
+[05:09:43] [Server thread/INFO]: Copied 0 arenas to the new world.
+[05:09:43] [Server thread/INFO]: Copied the worlds and the arenas in 135 ms.
+[05:09:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: strikepractice [3.8.1-SNAPSHOT]
+[05:09:43] [Server thread/WARN]: keep-arenas-loaded could not be enabled! Probably old server software.
+[05:09:43] [Server thread/INFO]: Enabled (experimental) report replays. Disable with disable-report-replay: true
+[05:09:43] [Thread-13/INFO]: UUID of player 123__________752 is b61aa036-3890-3e35-96f5-b9ab7b48f265
+[05:09:43] [Server thread/INFO]: StrikePractice >> Performance mode enabled!
+[05:09:43] [Server thread/INFO]: [StrikePractice] StrikePractice was enabled in 946 ms.
+[05:09:43] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.3-Release
+[05:09:43] [Server thread/INFO]: [DeluxeMenus] Hooked into PlaceholderAPI!
+[05:09:44] [Server thread/INFO]: [DeluxeMenus] Registered command: unranked_menu for menu: unranked_menu
+[05:09:44] [Server thread/INFO]: [DeluxeMenus] Registered command: supersecretcommand for menu: extra_kits
+[05:09:44] [Server thread/INFO]: [DeluxeMenus] Registered command: ranked_menu for menu: ranked_menu
+[05:09:44] [Server thread/INFO]: [DeluxeMenus] Registered command: partyevents for menu: partyevents
+[05:09:44] [Server thread/INFO]: [DeluxeMenus] Registered command: settings_menu for menu: settings
+[05:09:44] [Server thread/INFO]: [DeluxeMenus] Registered command: editor_menu for menu: editor
+[05:09:44] [Server thread/INFO]: [DeluxeMenus] Registered command: editor_ranked_menu for menu: editor_ranked
+[05:09:44] [Server thread/INFO]: [DeluxeMenus] Registered command: botfights for menu: PvPBot
+[05:09:44] [Server thread/INFO]: [DeluxeMenus] 10 GUI menus loaded!
+[05:09:44] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[05:09:44] [Server thread/INFO]: [DeluxeMenus] Could not setup a NMS hook for your server version!
+[05:09:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.13.3-Release]
+[05:09:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:09:44] [Server thread/INFO]: Done (3,511s)! For help, type "help" or "?"
+[05:09:44] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[05:09:44] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[05:09:44] [Server thread/INFO]: [0;33;22m0 placeholder hook(s) registered![m
+[05:09:44] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates ... 
+[05:09:44] [Craft Scheduler Thread - 5/WARN]: [Vault] Stable Version: 1.7.3 is out! You are still running version: 1.5.6
+[05:09:44] [Craft Scheduler Thread - 5/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[05:09:44] [ForkJoinPool.commonPool-worker-9/INFO]: Loaded 123__________752's data in 20 ms.
+[05:09:44] [Server thread/INFO]: 123__________752[/127.0.0.1:55648] logged in with entity id 60 at ([lobby]260.94679483706494, 68.0, 276.3567846814713)
+[05:09:44] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.6) is available at:
+[05:09:44] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[05:09:45] [Server thread/INFO]: Spawning a test npc 'steve' to fetch npcs' skin. The npc will be removed in 10 seconds.
+[05:09:50] [Server thread/INFO]: 123__________752 issued server command: /noc
+[05:09:51] [Server thread/INFO]: 123__________752 issued server command: /npc
+[05:10:02] [Server thread/INFO]: 123__________752 issued server command: /npc create PDiddy BOT
+[05:10:22] [Server thread/INFO]: 123__________752 issued server command: /NPC select
+[05:10:27] [Server thread/INFO]: 123__________752 issued server command: /NPC select pddidy bot
+[05:10:35] [Server thread/INFO]: 123__________752 issued server command: /NPC select 1
+[05:10:55] [Server thread/INFO]: 123__________752 issued server command: /cmdnpc add /botduel
+[05:11:03] [Server thread/INFO]: 123__________752 issued server command: /npc command add /botduel
+[05:11:04] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:05] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:05] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:05] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:06] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:06] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:06] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:07] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:11] [Server thread/INFO]: 123__________752 issued server command: /botduel
+[05:11:20] [Server thread/INFO]: 123__________752 issued server command: /npc command
+[05:11:25] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:26] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:26] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:28] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:29] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:29] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:35] [Server thread/INFO]: 123__________752 issued server command: /npc command add dd
+[05:11:36] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:36] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:37] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:37] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:37] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:37] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:37] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:37] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:41] [Server thread/INFO]: 123__________752 issued server command: /npc list
+[05:11:44] [Server thread/INFO]: 123__________752 issued server command: /npc
+[05:11:48] [Server thread/INFO]: 123__________752 issued server command: /unranked
+[05:11:51] [Server thread/INFO]: 123__________752 issued server command: /botduel
+[05:11:55] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:55] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:11:55] [Server thread/INFO]: 123__________752 issued server command: /botduel
+[05:12:03] [Server thread/INFO]: 123__________752 issued server command: /spawn
+[05:12:04] [Server thread/INFO]: 123__________752 issued server command: /botduel
+[05:12:08] [Server thread/INFO]: 123__________752 issued server command: /spawn
+[05:12:09] [Server thread/INFO]: 123__________752 issued server command: /botduel
+[05:12:19] [Server thread/INFO]: 123__________752 issued server command: /unranked
+[05:12:27] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:12:27] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:12:27] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:12:27] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:12:27] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:12:27] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:12:28] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:12:28] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:12:59] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:12:59] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:12:59] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:12:59] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:12:59] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:12:59] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:13:04] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:13:04] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:13:04] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:13:04] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:13:04] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:13:04] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:13:05] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:13:05] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:13:05] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:13:05] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:13:05] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:13:05] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:13:05] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:13:05] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:13:05] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:13:05] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:13:06] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:13:06] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:14:01] [Server thread/INFO]: 123__________752 issued server command: /npc select 1
+[05:14:06] [Server thread/INFO]: 123__________752 issued server command: /npc delete
+[05:14:09] [Server thread/INFO]: 123__________752 issued server command: /npc remove
+[05:14:21] [Server thread/INFO]: 123__________752 issued server command: /npc create PDiddy BOT
+[05:14:30] [Server thread/INFO]: 123__________752 issued server command: /npc command add player:/botduels
+[05:14:31] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:14:32] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:14:32] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:14:33] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:14:33] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:14:38] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:14:39] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:14:39] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:14:39] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:14:42] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:14:55] [Server thread/INFO]: 123__________752 issued server command: /npc remove
+[05:15:08] [Server thread/INFO]: 123__________752 issued server command: /npc create PDiddy BOT
+[05:15:13] [Server thread/INFO]: 123__________752 issued server command: /NPc select 5
+[05:15:23] [Server thread/INFO]: 123__________752 issued server command: /npc command add player:/botduel
+[05:15:25] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:15:25] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:15:37] [Server thread/INFO]: 123__________752 issued server command: /botduels
+[05:15:38] [Server thread/INFO]: 123__________752 issued server command: /botduel
+[05:15:55] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:15:56] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:15:56] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:15:56] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:15:56] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:15:56] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:15:56] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:16:33] [Server thread/INFO]: 123__________752 issued server command: /npc remove
+[05:16:47] [Server thread/INFO]: 123__________752 issued server command: /npc create PDiddy BOT
+[05:16:56] [Server thread/INFO]: 123__________752 issued server command: /npc select 6
+[05:17:03] [Server thread/INFO]: 123__________752 issued server command: /npc command add player:botduel
+[05:17:05] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:17:06] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:17:06] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:17:06] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:17:06] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:17:07] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:17:07] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:17:22] [Server thread/INFO]: 123__________752 issued server command: /pl
+[05:17:57] [Thread-17/INFO]: UUID of player wdiauohwaioudaw is 4e3392c0-0236-30ba-92f5-6ef832c2e7d9
+[05:17:57] [Server thread/INFO]: wdiauohwaioudaw[/127.0.0.1:56080] logged in with entity id 394 at ([lobby]276.69999998807907, 54.0, 284.6091761794465)
+[05:17:57] [ForkJoinPool.commonPool-worker-12/INFO]: Loaded wdiauohwaioudaw's data in 6 ms.
+[05:17:59] [Server thread/INFO]: wdiauohwaioudaw issued server command: /botduel
+[05:18:01] [Server thread/INFO]: wdiauohwaioudaw issued server command: /unranked
+[05:18:03] [Server thread/INFO]: wdiauohwaioudaw issued server command: /unranked
+[05:18:08] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[05:18:09] [Server thread/INFO]: 123__________752 issued server command: /unranked
+[05:18:20] [Server thread/INFO]: 123__________752 lost connection: Disconnected
+[05:18:20] [Server thread/INFO]: 123__________752 left the game.

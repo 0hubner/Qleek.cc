@@ -1,0 +1,119 @@
+menu_title: '&8Select a Mode'
+open_command:
+- botfights
+register_command: true
+update-interval: 1
+size: 45
+items:
+      Boxing:
+        material: DIAMOND_CHESTPLATE
+        hide_effects: true        
+        slot: 11
+        update: true
+        display_name: '&9&lBoxing'
+        left_click_commands:
+        - '[player] botduel nigger Boxing'
+        right_click_commands:
+        - '[player] botduel nigger Boxing'    
+        - '[close]'
+      Diamond:
+        material: DIAMOND_SWORD
+        hide_effects: true        
+        slot: 12
+        update: true
+        display_name: '&9&lDiamond'
+        left_click_commands:
+        - '[player] botduel nigger Diamond'
+        right_click_commands:
+        - '[player] botduel nigger Diamond'  
+        - '[close]'
+      Axe:
+        material: DIAMOND_AXE
+        hide_effects: true        
+        slot: 13
+        update: true
+        display_name: '&9&lAxe'
+        left_click_commands:
+        - '[player] botduel nigger Axe'
+        right_click_commands:
+        - '[player] botduel nigger Axe' 
+        - '[close]'
+      Sumo:
+        material: SLIME_BALL
+        hide_effects: true        
+        slot: 14
+        update: true
+        display_name: '&9&lSumo'
+        left_click_commands:
+        - '[player] botduel nigger Sumo'
+        right_click_commands:
+        - '[player] botduel nigger Sumo'    
+        - '[close]'
+      NoDebuff:
+        material: potion
+        data: 16421
+        hide_effects: true        
+        slot: 15
+        update: true
+        display_name: '&9&lNoDebuff'
+        left_click_commands:
+        - '[player] botduel nigger NoDebuff'
+        - '[close]'
+        right_click_commands:
+        - '[player] botduel nigger Soup'  
+        - '[close]'
+      Debuff:
+        material: potion
+        data: 16388
+        hide_effects: true        
+        slot: 20
+        update: true
+        display_name: '&9&lDebuff'
+        left_click_commands:
+        - '[player] botduel nigger Debuff'
+        right_click_commands:
+        - '[player] botduel nigger Debuff' 
+        - '[close]'
+      Combo:
+        material: RAW_FISH
+        data: 3
+        hide_effects: true        
+        slot: 21
+        update: true
+        display_name: '&9&lCombo'
+        left_click_commands:
+        - '[player] botduel nigger Combo'
+        right_click_commands:
+        - '[player] botduel nigger Combo'   
+        - '[close]'
+      Gapple:
+        material: GOLDEN_APPLE
+        data: 1
+        hide_effects: true        
+        slot: 22
+        update: true
+        display_name: '&9&lGapple'
+        left_click_commands:
+        - '[player] botduel nigger Gapple'
+        right_click_commands:
+        - '[player] botduel nigger Gapple'    
+        - '[close]'
+      Soup:
+        material: MUSHROOM_SOUP
+        hide_effects: true        
+        slot: 23
+        update: true
+        display_name: '&9&lSoup'
+        left_click_commands:
+        - '[player] botduel nigger Soup'
+        right_click_commands:
+        - '[player] botduel nigger Soup'    
+        - '[close]'
+      glass:
+        display_name: '&r'
+        material: STAINED_GLASS_PANE
+        data: 7
+        slots:     
+        - 0-10
+        - 16-19
+        - 24-44
